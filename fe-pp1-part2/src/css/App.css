@@ -1,0 +1,53 @@
+.creditcard{
+  width: 315px; /* 设置卡片的宽度 */
+  height: 144px;
+  border-radius: 12px; /* 圆角 */
+  padding: 20px; /* 内边距 */
+  /* display: flex; */
+  display: inline-flex;
+  flex-direction: column; /* 垂直排列 */
+  /* justify-content: space-between; 在垂直方向上分布 */
+  color: white; /* 默认字体颜色 */
+  font-family: 'Arial', sans-serif; /* 字体 */
+  margin-left: 20px;
+}
+/*.cardContainer{
+   display: flex;
+  align-items: flex-center;
+  display: inline;
+  padding: 2px;
+} */
+
+.cardtype{
+  width: 50px;
+  height: 20px;
+  position: relative ;
+  top: 10px;
+  left: 250px;
+  margin-bottom: 30px;
+}
+.num{
+
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.day{
+  display: flex;
+}
+.bankname{
+  margin-left: 20px;
+}
+.box{
+  color: black;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  padding-top: 15px;
+  margin: 10px;
+  border: 2px solid black;
+  
+}
+p{
+margin: 0px;
+}

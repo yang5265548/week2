@@ -1,0 +1,50 @@
+/* h3 {
+  text-align: center;
+}
+
+
+.App-logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+} */
+.imgbox{
+  
+   flex:1; /*图片区域占据 flex 容器的 1 份 */
+  display:flex; /* 使用 flex 布局使图片垂直居中 */
+  justify-content:center; /* 水平居中 */
+  align-items:bottom; /* 垂直居中 */
+  margin-left: 4px;
+  /* border: 2px solid black; */
+  padding:0px ;
+}
+.infobox{
+  padding-top: 0px;
+   flex:7; /*信息区域占据 flex 容器的 2 份（可根据需要调整） */
+  /* display:flex; */
+  padding-left: 0px; 
+  margin-left: 4px;
+  /* border: 2px solid black; */
+}
+.stick{
+  width:1024px;
+  display: flex; /* 使用 flex 布局 */
+  align-items: stretch; /* 确保子元素高度相同 */
+  border: 2px solid black; /* 设置黑色边框 */
+   /* 设置内边距 */
+  margin-top: 10px;
+  padding:5px;
+  padding-left:0px;
+}
+.img{
+  padding-right:0px ;
+}
+p{
+  margin: 1px;
+}
+.container{
+  border: 2px solid black; /* 设置黑色边框 */
+  width: 1024px;
+  margin: 15px;
+  margin-left: 0px;
+}
