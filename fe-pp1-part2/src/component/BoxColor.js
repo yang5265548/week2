@@ -2,14 +2,17 @@ function CreditCard(props) {
     const boxColor = {
         backgroundColor:`rgb(${props.r}, ${props.g}, ${props.b})`
     };
-    const color = {
-        color: props.color
+    const getColorByBgcolor=(r,g,b)=>{
+        return (r*0.299+g*0.587+b*0.114)>186 ?'#000000':'#ffffff';
+    }
+    const fontColor = {
+        color: getColorByBgcolor(props.r,props.g,props.b)
     }
     return (
 
-        <div className="box" style={boxColor}>           
-            <p >rgb({props.r},{props.g},{props.b})</p>
-            <p>{rgbToHex(props.r,props.g,props.b)}</p>
+        <div className="box" style={boxColor}>         
+            <p style={fontColor}>rgb({props.r},{props.g},{props.b})</p>
+            <p style={fontColor}>{rgbToHex(props.r,props.g,props.b)}</p>
         </div>
     );
 

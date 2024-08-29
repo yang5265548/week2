@@ -7,6 +7,7 @@
   display: inline-flex;
   flex-direction: column; /* 垂直排列 */
   /* justify-content: space-between; 在垂直方向上分布 */
+  /* align-items: center; */
   color: white; /* 默认字体颜色 */
   font-family: 'Arial', sans-serif; /* 字体 */
   margin-left: 20px;
@@ -20,7 +21,7 @@
 
 .cardtype{
   width: 50px;
-  height: 20px;
+  height: 17.61px;
   position: relative ;
   top: 10px;
   left: 250px;
@@ -39,7 +40,7 @@
   margin-left: 20px;
 }
 .box{
-  color: black;
+
   width: 600px;
   height: 60px;
   text-align: center;
